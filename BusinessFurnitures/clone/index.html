@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Furniture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /*hover*/
+        .group:hover .dropdown {
+        display: block;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden" style="font-family: 'Quicksand', sans-serif;">
+
+  <!--Top header-->
+    <div class="flex bg-green-900 p-1 items-center text-center text-sm px-10 md:px-6">
+
+        <!--First line-->
+        <div class="flex flex-wrap items-center bg-green-900 w-full justify-center h-full text-center text-white text-lg z-10">
+            <p class="text-base w-full">Stay this summer with 
+                <a href="" class="underline">ergonic bestsellers</a> 
+                that move with you, and enjoy free shipping on every order.
+            </p>
+        </div>
+
+        <!--Right Side-->
+        <div class="hidden md:flex md:bg-green-900 md:text-white md:gap-2 md:text-lg md:items-center md:space-x-8">
+
+            <!--About Section-->
+            <div class="relative group">
+                <div class="flex items-center cursor-pointer space-x-2">
+                    <span>About</span>
+                    <span class="flex pb-2">&#8964;</span>
+                </div>
+
+                <!--Dropdown-->
+                <div class="dropdown hidden absolute bg-white text-black mt-2 w-48 shadow-lg rounded z-50">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Our Story</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Reviews</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Press & Media</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Design Values</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Branch Blog</a>
+                </div>
+            </div>
+
+
+            <!--Support Section-->
+            <div class="relative group">
+                <div class="flex items-center cursor-pointer space-x-1">
+                    <span>Support</span>
+                    <span class="flex pb-2">&#8964;</span>
+                </div>
+
+                <!--Dropdown-->
+                <div class="dropdown hidden absolute bg-white text-black mt-2 w-48 shadow-lg rounded z-50">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Track My Order</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">FAQ</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Ergonomics</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Visit a Showroom</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Assembly Guides</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Contact Us</a>
+                </div>
+            </div>
+
+            <!--Flag-->
+            <div class="flex w-8 h-5 items-center">
+                <img class="flex items-center" src="https://cdn.shopify.com/s/files/1/0287/3429/2028/files/ca-flag.jpg?v=1729609521" alt="Canada Flag">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Main Header-->
+    <div class="flex bg-gray-100 items-center justify-between p-6">
+
+        <!--Toggle section-->
+        <input type="checkbox" class="" />
+        <label for="" class="">&#9776;</label>
+
+        <!--Left Switch-->
+        <div class="hidden md:flex md:items-center md:justify-center md:space-x-4 md:pl-2">
+            <span class="h-6 w-text-sm font-semibold items-center text-green-900">HOME OFFICE</span>
+
+                <!--button-->
+                <label class="relative inline-block w-12 h-6 cursor-pointer">
+                    <input type="checkbox" class="peer">
+                    <div class="absolute inset-0 bg-green-900 rounded-full peer-checked:bg-green-700 transition"></div>
+                    <div class="absolute left-0.5 top-0.5 bg-white w-5 h-5 rounded-full transition-transform peer-checked:translate-x-6"></div>
+                </label>
+
+            <span class="h-6 w-text-sm font-semibold text-gray-400">BUSINESS</span>
+        </div>
+
+        <!-- Logo -->
+        <div class="w-80 h-10 items-center justify-center">
+            <img class="w-full h-full" src="//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=540 540w" alt="">
+        </div>
+
+        <!--Right Side-->
+        <div class="flex items-center justify-center space-x-6 pr-2">
+            <a href="#" class="bg-green-900 text-white px-4 py-2 text-sm font-bold rounded">DESIGN MY OFFICE</a>
+
+            <!-- Cart Icon -->
+            <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M5.4 5L3 3M7 13l-1.4 5H20"></path>
+            </svg>
+        </div>
+
+    </div>
+
+</body>
+</html>

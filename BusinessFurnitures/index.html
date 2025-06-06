@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Furniture</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /*hover*/
+        .group:hover .dropdown {
+        display: block;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden m-0 p-0" style="font-family: 'Quicksand', sans-serif;">
+
+    <!--Top header-->
+    <div class="flex bg-green-900 p-1 items-center text-center text-sm px-6">
+
+        <!--First line-->
+        <div class="flex items-center bg-green-900  pl-60 justify-center  text-center text-white text-lg z-10">
+            <p class="text-base w-full">Stay this summer with 
+                <a href="" class="underline">ergonic bestsellers</a> 
+                that move with you, and enjoy free shipping on every order.
+            </p>
+        </div>
+
+        <!--Right Side-->
+        <div class="flex bg-green-900 text-white gap-2 text-lg items-center space-x-8">
+
+            <!--About Section-->
+            <div class="relative group">
+                <div class="flex items-center cursor-pointer space-x-2">
+                    <span>About</span>
+                    <span class="flex pb-2">&#8964;</span>
+                </div>
+
+                <!--Dropdown-->
+                <div class="dropdown hidden absolute bg-white text-black mt-2 w-48 shadow-lg rounded z-50">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Our Story</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Reviews</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Press & Media</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Design Values</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Branch Blog</a>
+                </div>
+            </div>
+
+
+            <!--Support Section-->
+            <div class="relative group">
+                <div class="flex items-center cursor-pointer space-x-2">
+                    <span>Support</span>
+                    <span class="flex pb-2">&#8964;</span>
+                </div>
+
+                <!--Dropdown-->
+                <div class="dropdown hidden absolute bg-white text-black mt-2 w-48 shadow-lg rounded z-50">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Track My Order</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">FAQ</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Ergonomics</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Visit a Showroom</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Assembly Guides</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100">Contact Us</a>
+                </div>
+            </div>
+
+            <!--Flag-->
+            <div class="flex w-8 h-5 items-center">
+                <img class="flex items-center" src="https://cdn.shopify.com/s/files/1/0287/3429/2028/files/ca-flag.jpg?v=1729609521" alt="Canada Flag">
+            </div>
+
+        </div>
+
+    </div>
+    
+    <!--Main Header-->
+    <div class="flex bg-gray-100 items-center justify-between p-6">
+
+        <!--Left Switch-->
+        <div class="flex items-center justify-center space-x-4 pl-2">
+            <span class="h-6 w-text-sm font-semibold items-center text-green-900">HOME OFFICE</span>
+
+                <!--button-->
+                <label class="relative inline-block w-12 h-6 cursor-pointer">
+                    <input type="checkbox" class="peer">
+                    <div class="absolute inset-0 bg-green-900 rounded-full peer-checked:bg-green-700 transition"></div>
+                    <div class="absolute left-0.5 top-0.5 bg-white w-5 h-5 rounded-full transition-transform peer-checked:translate-x-6"></div>
+                </label>
+
+            <span class="h-6 w-text-sm font-semibold text-gray-400">BUSINESS</span>
+        </div>
+
+        <!-- Logo -->
+        <div class="w-80 h-10 items-center justify-center">
+            <img class="w-full h-full" src="//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=540 540w" alt="">
+        </div>
+
+        <!--Right Side-->
+        <div class="flex items-center justify-center space-x-6 pr-2">
+            <a href="#" class="bg-green-900 text-white px-4 py-2 text-sm font-bold rounded">DESIGN MY OFFICE</a>
+
+            <!-- Cart Icon -->
+            <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M5.4 5L3 3M7 13l-1.4 5H20"></path>
+            </svg>
+        </div>
+
+    </div>
+
+    <!--Third line-->
+    <div class="flex justify-center pl-4 bg-white p-3 text-green-900">
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">SHOP BY</label>
+        </div>
+
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">OFFICE CHAIRS</label>
+        </div>
+
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">DESKS & TABLES</label>
+        </div>
+
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">BUNDLES</label>
+        </div>
+
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">STORAGE & ACCESSORIES</label>
+        </div>
+
+        <div>
+            <input type="text"/>
+            <label class="flex justify-center font-3xl h-10 font-bold">SALE</label>
+        </div>
+
+    </div>
+
+    <!--Video Section-->
+    <div class="relative w-full h-screen  text-white overflow-hidden">
+
+        <!--Video Background-->
+        <div class="flex flex-col absolute z-0">
+            <video class="w-full h-4/6 object-cover" src="//www.branchfurniture.ca/cdn/shop/videos/c/vp/cebccb5a99f3411db3c4c8221ba4b122/cebccb5a99f3411db3c4c8221ba4b122.HD-1080p-2.5Mbps-23969442.mp4?v=0" type="video/mp4" autoplay muted loop playsinline>
+            </video>
+        </div>
+
+        <!--Text Content-->
+        <div class="flex flex-col justify-center items-start max-w-4xl h-full text-left px-20 mb-4 relative z-10">
+
+            <h1 class="font-serif text-6xl font-bold mb-4 leading-tight">
+                Canada's Most Loved Office 
+                Furniture
+            </h1>
+            <p class="text-xl mb-6">
+                Ergonomic essentials for a great workday. Top rated by Wired, Forbes, Wirecutter, and 400,00+ customers.
+            </p>
+            <a href="#" class="flex text-lg bg-white text-black font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">
+                SHOP NOW
+            </a>
+            <p class="text-sm mt-4">
+                Need help? 
+                <a href="#" class="underline font-semibold hover:text-green-300">
+                    Take our quiz
+                </a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <!--Press Container-->
+    <div class="flex flex-col bg-green-900 py-12 items-center">
+
+        <!--Text-->
+        <div class="max-w-5xl mx-auto px-4 text-center">
+            <h2 class="text-xl text-gray-300 mb-4 font-semibold"">PRESS</h2>
+            <div class="text-4xl text-white font-serif mb-8"">"WFH in comfort with Branch's high-quality ergonomic <br> chairs and standing desks."</div>
+        </div>
+
+        <!--Images-->
+        <div class="flex flex-wrap justify-center items-center space-x-6">
+            <img class="flex h-8 pr-24 justify-center items-center" src="https://www.branchfurniture.ca/cdn/shop/files/GQ_2b74f2b3-2021-4200-b26b-9879b750e001_200x.png?v=1688696426" alt="">
+            <img class="flex h-8 pr-24 justify-center items-center" src="//www.branchfurniture.ca/cdn/shop/files/Gear_Patrol_50b962ca-d1f9-486c-b9ba-69c5466996d5_200x.png?v=1711381510" alt="">
+            <img class="flex h-8 pr-24 justify-center items-center" src="//www.branchfurniture.ca/cdn/shop/files/CNN_200x.png?v=1677523441" alt="">
+            <img class="flex h-8 pr-24 justify-center items-center" src="//www.branchfurniture.ca/cdn/shop/files/Logo_1_cafa1d43-f3e0-490c-a9a8-5f4de8c095c8_200x.png?v=1688696419" alt="">
+            <img class="flex h-8 pr-24 justify-center items-center" src="//www.branchfurniture.ca/cdn/shop/files/New_york_mag_200x.png?v=1688696426" alt="">
+        </div>
+
+    </div>
+
+    <!--Office Section-->
+    <div class="flex flex-col items-center mx-80 my-20">
+
+        <!--Quotes-->
+        <div class="text-green-900 font-serif text-6xl p-5 mb-5">
+            <h2>Wherever you are, work your best</h2>
+        </div>
+
+        <!--Home Office-->
+        <div class="flex w-full space-x-16">
+
+            <div class="flex flex-col w-2/4 h-full">
+                <img class="h-full w-full transition duration-700 ease-in-out transform hover:scale-105" src="//www.branchfurniture.ca/cdn/shop/files/Home_Office_Aire.webp?v=1739919941" alt="">
+                <div class="flex items-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-3xl text-blue-300 font-mono pr-3">Home Office</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+                <p class="text-2xl">Work essentials for everyday use.</p>
+            </div>
+
+            <!--Team Office-->
+            <div class="flex flex-col w-2/4 h-full">
+                <img class="w-full h-full transition duration-700 ease-in-out transform hover:scale-105" src="https://www.branchfurniture.ca/cdn/shop/files/pl-branch-conference-table-fa22-detail-866_2.jpg?v=1739919992" alt="">
+                <div class="flex items-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-3xl text-blue-300 font-mono pr-3">Team Office</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" class="icon icon-chevron-circle" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+                <p class="text-2xl">Solutions for teams of all sizes.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Explore Section-->
+    <div class="flex flex-col items-center mx-80 my-20">
+
+        <!--Quotes-->
+        <div class="text-green-900 font-serif text-6xl p-5 mb-5">
+            <h2>Explore our products</h2>
+        </div>
+
+        <!--Explore-->
+        <div class="flex w-full space-x-16">
+
+            <!--Chairs-->
+            <div class="flex flex-col w-full justify-between h-full">
+                <img class="h-full w-full transition duration-700 ease-in-out transform hover:scale-105" src="//www.branchfurniture.ca/cdn/shop/files/Chairs_Verve_Wheat.webp?v=1739919940" alt="">
+                <h4 class="flex text-3xl font-mono justify-center pt-3">Chairs</h4>
+                <div class="flex items-center justify-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-2xl text-blue-300 font-mono justify-center pr-3">SEE ALL</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Desks-->
+            <div class="flex flex-col w-full justify-between h-full">
+                <img class="h-full w-full transition duration-700 ease-in-out transform hover:scale-105" src="https://www.branchfurniture.ca/cdn/shop/files/Desks_6b21f763-4f8b-421b-9f03-375da3e13b18.jpg?v=1692872761" alt="">
+                <h4 class="flex text-3xl font-mono justify-center pt-3">Desks</h4>
+                <div class="flex items-center justify-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-2xl text-blue-300 font-mono justify-center pr-3">SEE ALL</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Accessories-->
+            <div class="flex flex-col w-full justify-between h-full">
+                <img class="h-full w-full transition duration-700 ease-in-out transform hover:scale-105" src="https://www.branchfurniture.ca/cdn/shop/files/Homepage-DTC-Collections-Accessories.webp?v=1743520723" alt="">
+                <h4 class="flex text-3xl font-mono justify-center pt-3">Accessories</h4>
+                <div class="flex items-center justify-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-2xl text-blue-300 font-mono justify-center pr-3">SEE ALL</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!--Bundles-->
+            <div class="flex flex-col w-full justify-between h-full">
+                <img class="h-full w-full transition duration-700 ease-in-out transform hover:scale-105" src="https://www.branchfurniture.ca/cdn/shop/files/image_1_77c6bded-8ed0-481b-b851-4b4c3b1f93eb.jpg?v=1743520799" alt="">
+                <h4 class="flex text-3xl font-mono justify-center pt-3">Bundles</h4>
+                <div class="flex items-center justify-center pt-3">
+                    <a href="#">
+                        <h4 class="flex text-2xl text-blue-300 font-mono justify-center pr-3">SEE ALL</h4>
+                    </a>
+                    <svg class="flex h-6 w-6 items-center" aria-hidden="true" tabindex="-1" role="presentation" viewBox="0 0 32 32">
+                        <circle cx="16" cy="16" r="16" fill="#8DC0D2"></circle>
+                        <path d="M19.0172 15.9995L12.4172 9.39949L14.3026 7.51416L22.7879 15.9995L14.3026 24.4848L12.4172 22.5995L19.0172 15.9995Z" fill="white"></path>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="flex flex-col w-60 h-12 items-center justify-center text-base text-white font-semibold font-mono bg-green-900 my-10">
+            SHOP COLLECTIONS
+        </button>
+
+    </div>
+
+    <!--Service section-->
+    <div class="flex flex-col items-center bg-gray-100 px-80 py-20 my-20">
+
+        <div class="text-green-900 font-serif text-6xl p-5 mb-1">
+            <h2>We do office furniture a little bit different.</h2>
+        </div>
+        <p class="flex flex-col text-green-900 text-lg">That means easy, affordable, and flexible—whether you're furnishing your home office or your business.</p>
+
+        <!--Services-->
+        <div class="flex w-full items-center justify-center pt-20">
+
+            <!--Ergonomic support-->
+            <div class="flex flex-col w-full justify-between h-full pt-2">
+                <div class="flex justify-center">
+                    <img class="flex h-20 w-20 justify-center" src="https://www.branchfurniture.ca/cdn/shop/files/Ergonomics_simple_62b60253-b885-49c3-b957-f3f08025b7de.png?v=1671710477&width=720" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center pt-3">ERGONOMIC SUPPORT</h4>
+            </div>
+
+            <!--Fewer Middleman-->
+            <div class="flex flex-col w-full justify-between h-full pt-2">
+                <div class="flex justify-center">
+                    <img class="flex h-20 w-20 justify-center" src="https://www.branchfurniture.ca/cdn/shop/files/Middlemen.png?v=1671639759&width=720" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center font-mono justify-center pt-3">FEWER MIDDLEMAN</h4>
+            </div>
+
+            <!--Free & fast shipping-->
+            <div class="flex flex-col w-full justify-between h-full pt-2">
+                <div class="flex justify-center">
+                    <img class="flex h-20 w-20 justify-center" src="//www.branchfurniture.ca/cdn/shop/files/Shipping_or_supply_chain_e7f66d38-fa96-426b-a17e-7284e6e64199.png?v=1671710229&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/Shipping_or_supply_chain_e7f66d38-fa96-426b-a17e-7284e6e64199.png?v=1671710229&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/Shipping_or_supply_chain_e7f66d38-fa96-426b-a17e-7284e6e64199.png?v=1671710229&width=540 540w,//www.branchfurniture.ca/cdn/shop/files/Shipping_or_supply_chain_e7f66d38-fa96-426b-a17e-7284e6e64199.png?v=1671710229&width=720 720w" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center font-mono justify-center pt-3">FREE & FAST SHIPPING</h4>
+            </div>
+
+            <!--White-glove service-->
+            <div class="flex flex-col w-full bg-white justify-between h-full pt-2">
+                <div class="flex justify-center">
+                    <img class="flex h-20 w-20 justify-center" src="//www.branchfurniture.ca/cdn/shop/files/White_Glove_or_Easy_Assembly_a7867a62-0999-4cfb-841a-9d48205cf0ba.png?v=1671710229&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/White_Glove_or_Easy_Assembly_a7867a62-0999-4cfb-841a-9d48205cf0ba.png?v=1671710229&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/White_Glove_or_Easy_Assembly_a7867a62-0999-4cfb-841a-9d48205cf0ba.png?v=1671710229&width=540 540w,//www.branchfurniture.ca/cdn/shop/files/White_Glove_or_Easy_Assembly_a7867a62-0999-4cfb-841a-9d48205cf0ba.png?v=1671710229&width=720 720w" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center font-mono justify-center pt-3">WHITE-GLOVE SERVICE</h4>
+            </div>
+
+            <!--Quick turnarounds-->
+            <div class="flex flex-col w-full bg-white items-center justify-between h-full">
+                <button class="flex w-40 h-10 text-center items-center justify-center text-base text-white font-semibold font-mono bg-blue-300 origin-top transform -rotate-12 z-0">
+                    For team offices
+                </button>
+                <div class="flex justify-center z-10">
+                    <img class="flex h-20 w-20 justify-center" src="//www.branchfurniture.ca/cdn/shop/files/On_your_schedule_e50f21be-a8c0-494b-81ad-fbf2157d3729.png?v=1671710720&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/On_your_schedule_e50f21be-a8c0-494b-81ad-fbf2157d3729.png?v=1671710720&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/On_your_schedule_e50f21be-a8c0-494b-81ad-fbf2157d3729.png?v=1671710720&width=540 540w,//www.branchfurniture.ca/cdn/shop/files/On_your_schedule_e50f21be-a8c0-494b-81ad-fbf2157d3729.png?v=1671710720&width=720 720w" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center font-mono justify-center pt-3">QUICK TURNAROUNDS</h4>
+            </div>
+
+            <!--Trade in flexibility-->
+            <div class="flex flex-col w-full bg-white justify-between h-full pt-2">
+                <div class="flex justify-center">
+                    <img class="flex h-20 w-20 justify-center" src="//www.branchfurniture.ca/cdn/shop/files/Flex.png?v=1671639765&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/Flex.png?v=1671639765&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/Flex.png?v=1671639765&width=540 540w,//www.branchfurniture.ca/cdn/shop/files/Flex.png?v=1671639765&width=720 720w" alt="">
+                </div>
+                <h4 class="flex text-2xl text-black text-center font-mono justify-center pt-3">TRADE-IN FLEXIBILITY</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Comparison section-->
+    <div class="flex w-full h-full bg-white px-40 py-20">
+
+        <!--First Half-->
+        <div class="flex flex-col items-center text-center w-2/4 h-full text-green-900 space-y-10">
+            <h2 class="text-4xl text-center font-serif">We sell direct and share the savings.</h2>
+            <p class="text-2xl text-center">We cut out middlemen and maintain a lean line of modular inventory to save you up to 50% compared to traditional office furniture of similar quality.</p>
+            <a class="flex flex-col w-40 h-10 bg-green-900 text-white font-bold text-lg justify-center" href="#">OUR STORY</a>
+        </div>
+
+        <!--Second Half-->
+        <div flex w-full items-end>
+
+            <!--Left labels-->
+            <div class="flex flex-col text-gray-500 text-sm space-y-6">
+                <p>Delivery, Assembly & Disposal</p>
+                <p>Dealer Markup</p>
+                <p>Manufacturer Markup</p>
+                <p>Materials & Manufacturer</p>
+            </div>
+
+            <!--Right blocks-->
+            <div>
+
+                <!--Comparison-->
+                <div class="flex items-end space-x-6">
+                    <!--Furniture Dealer-->
+                    <div class="flex flex-col justify-end">
+                        <div class="h-64 w-12 bg-gray-400"></div>
+                        <p class="mt-2 text-sm text-gray-700 text-center font-medium">Furniture dealer</p>
+                    </div>
+
+                    <!--Branch-->
+                    <div class="flex flex-col justify-end relative">
+                        <div class="h-32 w-12 bg-green-900"></div>
+                        <div class="absolute -top-20 left-1/2 transform -translate-x-1/2 w-12 h-20 border border-dashed border-gray-300 flex items-center justify-center">
+                            <span class="text-xs text-gray-500 text-center">Save upto 50%</span>
+                        </div>
+                        <img class="w-64 h-8 items-center justify-center mt-2" src="//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=180 180w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=360 360w,//www.branchfurniture.ca/cdn/shop/files/Branch_Normal.png?v=1729608557&width=540 540w" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
